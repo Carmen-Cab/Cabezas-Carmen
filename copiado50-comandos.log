@@ -1,0 +1,25 @@
+    1  cd mi-primer-repositorio
+    2  cd "tarea final"
+    3  wc -"vaquitas"
+    4  wc -w El-arriero.txt
+    5  wc -w El-arriero.txt | wc-1 "vaquitas"
+    6  wc -w El-arriero.txt | wc -1
+    7  cat El-arriero.txt
+    8  cat El-arriero.txt | sort
+    9  cat El-arriero.txt | sort | uniq
+   10  cat El-arriero.txt | sort | uniq - c
+   11  cat El-arriero.txt | sort | uniq -c
+   12  cat El-arriero.txt | sort | uniq -c "vaquitas"
+   13  cat El-arriero.txt | sort | uniq -c vaquitas
+   14  cat El-arriero.txt | uniq -c
+   15  cat El-arriero.txt | uniq -c vaquitas
+   16  cat El-arriero.txt | uniq -w
+   17  cat El-arriero.txt | uniq -c
+   18  cat El-arriero.txt | sort -u
+   19  cat El-arriero.txt | sort | uniq -c | sort -nr
+   20  cat El-arriero.txt | sort | uniq -c "vaquitas"
+   21  cat El-arriero.txt | sort | uniq -c vaquitas
+   22  cat vaquitas | sort | uniq -c
+   23  cat El-arriero.txt | sort | uniq -c | sort -nr
+   24  grep -o "vaquita" El-arriero.txt | wc -l
+   25  history | tail -n 50 > 50-comandos.log
